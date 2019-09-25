@@ -9,12 +9,6 @@ In addition, MXScrollView is a UIScrollView subclass with the ability to hook th
 
 ## Usage
 
-If you want to try it, simply run:
-
-```
-pod try MXParallaxHeader
-```
-
 + Adding a parallax header to a UIScrollView is straightforward, e.g:
 
 <details open=1>
