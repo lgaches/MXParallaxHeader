@@ -1,0 +1,3 @@
+module MXParallaxHeader {
+    umbrella header "MXParallax.h" requires objc export *
+}
