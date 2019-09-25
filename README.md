@@ -1,18 +1,11 @@
 # MXParallaxHeader
 
-[![CI Status](http://img.shields.io/travis/maxep/MXParallaxHeader.svg?style=flat)](https://travis-ci.org/maxep/MXParallaxHeader)
-[![Version](https://img.shields.io/cocoapods/v/MXParallaxHeader.svg?style=flat)](http://cocoapods.org/pods/MXParallaxHeader)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/MXParallaxHeader.svg?style=flat)](http://cocoapods.org/pods/MXParallaxHeader)
 [![Platform](https://img.shields.io/cocoapods/p/MXParallaxHeader.svg?style=flat)](http://cocoapods.org/pods/MXParallaxHeader)
 
 MXParallaxHeader is a simple header class for UIScrollView.
 
 In addition, MXScrollView is a UIScrollView subclass with the ability to hook the vertical scroll from its subviews, this can be used to add a parallax header to complex view hierachy. Moreover, MXScrollViewController allows you to add a MXParallaxHeader to any kind of UIViewController.
-
-|             UIScrollView        |           MXScrollViewController          |
-|---------------------------------|-------------------------------------------|
-|![Demo](Example-objc/demo1.gif)|![Demo](Example-objc/demo2.gif)|
 
 ## Usage
 
@@ -63,11 +56,12 @@ scrollView.parallaxHeader.minimumHeight = 20;
 
 ## Installation
 
-MXParallaxHeader is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+If you want to use MXParallaxHeader in a project that uses [SwiftPM](https://swift.org/package-manager/), it's as simple as adding a `dependencies` clause to your Package.swift
 
-```ruby
-pod "MXParallaxHeader"
+```swift
+dependencies: [
+    .package(url: "https://github.com/lgaches/MXParallaxHeader.git", from: "1.1.0")
+]
 ```
 
 ## Documentation
