@@ -46,7 +46,6 @@ scrollView.parallaxHeader.minimumHeight = 20;
 
 + The MXScrollViewController is a container with a child view controller that can be added programmatically or using the custom segue MXScrollViewControllerSegue.
 
-+ Please check examples for **ObjC/Swift** implementations.
 
 ## Installation
 
