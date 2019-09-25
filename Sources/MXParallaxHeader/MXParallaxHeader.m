@@ -23,10 +23,6 @@
 #import <objc/runtime.h>
 #import "MXParallaxHeader.h"
 
-@interface MXParallaxView : UIView
-@property (nonatomic,weak) MXParallaxHeader *parent;
-@end
-
 @implementation MXParallaxView
 
 static void * const kMXParallaxHeaderKVOContext = (void*)&kMXParallaxHeaderKVOContext;

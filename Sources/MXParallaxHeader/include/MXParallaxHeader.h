@@ -136,4 +136,9 @@ DEPRECATED_MSG_ATTRIBUTE("Use the MXParallaxHeader's delegate property instead."
 
 @end
 
+@interface MXParallaxView : UIView
+@property (nonatomic,weak) MXParallaxHeader *parent;
+@end
+
+
 NS_ASSUME_NONNULL_END
